@@ -68,4 +68,4 @@ You can find detailed instructions in the [How to Install Applications](How%20to
 
 <br />Berion<br />2026-07-31
 
-<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="{{ site.baseurl }}/">main page</a></small></p>
