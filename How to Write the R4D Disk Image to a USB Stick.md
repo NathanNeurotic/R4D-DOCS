@@ -19,7 +19,7 @@ Start [Rufus](https://rufus.ie/en/) and configure the following options:
 2. Click the **Select** button and choose the R4D disk image.
 3. Click the **Start** button and wait until Rufus finishes writing the disk image.
 
-<p align="center"><img src="./images/rufus.png" alt="Rufus configuration"/></p>
+<p align="center"><img src="{{ site.baseurl }}/images/rufus.png" alt="Rufus configuration"/></p>
 
 ## Step B. Extend the Partition
 
@@ -29,4 +29,4 @@ If you want to use the remaining unallocated space on the USB stick, you can ext
 
 <br />Berion<br />2026-07-31
 
-<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="{{ site.baseurl }}/">main page</a></small></p>
