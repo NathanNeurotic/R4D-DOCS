@@ -9,7 +9,7 @@ The PlayStation 2 does not have a built-in operating system. As a result, there 
 
 In practice, this means that, apart from Sony software, any application can be placed in any directory and launched from virtually any location. The same applies to configuration files. Over the years, the most commonly used directories have included `mc0:/APPS/` (late Free McBoot era), `mc0:/BOOT/` (primarily used as an exit target for applications and as the boot location for the DEV1 feature of compatible modchips), `mc0:/SYS-CONF/` (various settings), as well as completely custom directories chosen by individual application authors (for example, `mc0:/SMS/`).
 
-The first attempt at standardization came in the form of **UMCS** and **SAS**, originally created by **TnA** and later further developed by our team (including my own contribution, microSAS). Without going into the technical details, applications distributed in the SAS and microSAS formats are packaged as PSU files. Although the PSU format was originally designed for keeping PlayStation 2 save data, it also works remarkably well as an archive format for applications. When extracted, a PSU package produces a directory containing the executable, icons, metadata, and any additional files required by the application. If you would like to learn more about the differences between SAS and microSAS, see the dedicated guide: [SAS and microSAS Packages](SAS%20and%20microSAS%20Packages.md).
+The first attempt at standardization came in the form of **UMCS** and **SAS**, originally created by **TnA** and later further developed by our team (including my own contribution, microSAS). Without going into the technical details, applications distributed in the SAS and microSAS formats are packaged as PSU files. Although the PSU format was originally designed for keeping PlayStation 2 save data, it also works remarkably well as an archive format for applications. When extracted, a PSU package produces a directory containing the executable, icons, metadata, and any additional files required by the application. If you would like to learn more about the differences between SAS and microSAS, see the dedicated guide: [SAS and microSAS Packages](SAS%20and%20microSAS%20Packages.html).
 
 ## Install mSAS/SAS Applications
 
@@ -74,4 +74,4 @@ In such cases, I recommend adding the following applications to your PS2 Memory 
 
 <br />Berion<br />2026-07-31
 
-<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
