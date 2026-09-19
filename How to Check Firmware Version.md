@@ -35,13 +35,13 @@ Many people think that these units cannot automatically launch applications such
 
 In theory, if the code <span style="color:#009400">**8B**</span> is shown on the label next to the model number on the console's casing, then and only then does the PS2 have version 2.20 (<span style="color:#B35900">**8C** can vary</span>, while all <span style="color:#BD0000">**8D** units have version 2.30</span>). However, this is not a reliable indicator, as the motherboards may have been swapped...
 
-<p align="center"><img src="./images/scph90k_sticker.jpg" width="60%""/></p>
+<p align="center"><img src="./images/scph90k_sticker.jpg" width="60%"/></p>
 
 The **only** 100% reliable test is to boot a disc with [FreeDVDBoot](https://github.com/CTurt/FreeDVDBoot) (by the way, owners of older models can use [FreeDVDBoot-2.13E](https://github.com/VINSERTF128/FreeDVDBoot-2.13E) or [YADE](https://github.com/MFDGaming/YADE/)), which will automatically launch wLE. In the file manager, go to "MISC", then "Debug Info", and if you see <span style="color:#BD0000">0230</span> next to "ROMVER" -- you're out of luck. If you see <span style="color:#009400">0220</span> -- congratulations. :)
 
 <p align="center">
-	<img src="./images/scph90k_wle_1.png" width="30%""/> <img src="./images/scph90k_wle_2.png" width="30%""/> <br />
-	<img src="./images/scph90k_wle_3.png" width="60%""/>
+	<img src="./images/scph90k_wle_1.png" width="30%"/> <img src="./images/scph90k_wle_2.png" width="30%"/> <br />
+	<img src="./images/scph90k_wle_3.png" width="60%"/>
 </p>
 
 ## Updating BOOTROM
