@@ -14,7 +14,9 @@ Three already-referenced guides were not present in the supplied archive, so pla
 
 ## Supplied binary assets
 
-The source archive contains **31 image files** under `images/`. The current GitHub connector can write repository text/Git objects but cannot directly consume binary files from a conversation upload, so those supplied image binaries still need to be added to the repository's `images/` directory through a binary-capable Git/GitHub upload path. The Markdown filenames have been left intact so adding that directory later requires no documentation rewrite.
+The source archive contains **31 image files** under `images/`. The documentation references 30 of them; `defraggler_1.png` is currently unused.
+
+The GitHub Pages site expects these as normal repository files under `images/` (they are not embedded into the generated HTML). `images/rufus.png` has now been restored to the repository while the remaining supplied assets are being imported.
 
 ## Referenced images not present in the supplied archive
 
