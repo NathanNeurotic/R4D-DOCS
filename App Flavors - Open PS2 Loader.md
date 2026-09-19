@@ -328,10 +328,10 @@ A fork based on one of the OPL 1.2.0 beta builds, with a modified GUI that resem
 The following OPL-derived projects and feature branches have been identified but have not yet been fully tested and compared against the entries above. They are listed here as research targets for a future update rather than as recommendations.
 
 - [Open PS2 Loader HTTP — Docmine17/Open-PS2-Loader-HTTP](https://github.com/Docmine17/Open-PS2-Loader-HTTP) — native HTTP Range Request game streaming.
-- [Open PS2 Loader + RetroAchievements — hacan359/Open-PS2-Loader (\`ra\` branch)](https://github.com/hacan359/Open-PS2-Loader/tree/ra) — xeRAbora/RetroAchievements integration.
+- [Open PS2 Loader + RetroAchievements — hacan359/Open-PS2-Loader (`ra` branch)](https://github.com/hacan359/Open-PS2-Loader/tree/ra) — xeRAbora/RetroAchievements integration.
 - [Open PS2 Loader Retro-GEM — CosmicScale/Open-PS2-Loader-Retro-GEM](https://github.com/CosmicScale/Open-PS2-Loader-Retro-GEM) — Retro GEM Game ID support.
-- [GameID + GEM — AppCakeLtd/Open-PS2-Loader (\`gameid-with-gem\` branch)](https://github.com/AppCakeLtd/Open-PS2-Loader/tree/gameid-with-gem) — GameID/GEM feature branch used by related Retro-GEM work.
-- [Open PS2 Loader UDPBD — tihmstar/Open-PS2-Loader (\`udpbd\` branch)](https://github.com/tihmstar/Open-PS2-Loader/tree/udpbd) — UDPBD network-storage variant.
+- [GameID + GEM — AppCakeLtd/Open-PS2-Loader (`gameid-with-gem` branch)](https://github.com/AppCakeLtd/Open-PS2-Loader/tree/gameid-with-gem) — GameID/GEM feature branch used by related Retro-GEM work.
+- [Open PS2 Loader UDPBD — tihmstar/Open-PS2-Loader (`udpbd` branch)](https://github.com/tihmstar/Open-PS2-Loader/tree/udpbd) — UDPBD network-storage variant.
 - [Open PS2 Loader Extended APA — L10N37/Open-PS2-Loader-Extended-APA](https://github.com/L10N37/Open-PS2-Loader-Extended-APA) — banked APA support for internal HDD storage beyond 2 TiB.
 - [OPLattice — coffeedevsolutions/OPLattice](https://github.com/coffeedevsolutions/OPLattice) — custom OPL build and patch set centered on the SHELF/sidebar and grid-style interface.
 - [OPL FUTURE — brunlx/OPL-Future---BETA](https://github.com/brunlx/OPL-Future---BETA) — redesigned frontend with carousel, device dock, and status HUD.
