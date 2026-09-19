@@ -49,4 +49,4 @@ If your console has a **Modbo** modchip with the **DEV3** feature, you can confi
 
 <br />Berion<br />2026-08-17
 
-<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="{{ site.baseurl }}/">main page</a></small></p>
