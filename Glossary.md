@@ -1423,4 +1423,4 @@ I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How
 
 <br />Berion<br />2026-09-12
 
-<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="{{ site.baseurl }}/">main page</a></small></p>
