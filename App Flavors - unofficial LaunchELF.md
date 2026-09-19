@@ -47,4 +47,4 @@ The first wLE fork (based on wLE ISR), which unifies all previously unique featu
 
 <br />Berion<br />2026-08-01
 
-<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="{{ site.baseurl }}/">main page</a></small></p>
