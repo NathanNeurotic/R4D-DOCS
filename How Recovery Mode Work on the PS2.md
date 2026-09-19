@@ -52,4 +52,4 @@ It does not have a recovery mode, but it does not need one. It is usually launch
 
 <br />Berion<br />2026-08-19
 
-<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="{{ site.baseurl }}/">main page</a></small></p>
