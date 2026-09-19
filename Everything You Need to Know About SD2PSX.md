@@ -234,4 +234,4 @@ The defragmentation process can be very long and cumbersome, while also unnecess
 
 <br />Berion<br />2026-09-04
 
-<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="{{ site.baseurl }}/">main page</a></small></p>
