@@ -14,7 +14,7 @@ Below you will find all the mysterious acronyms, abbreviations, and terms I use 
 
 **A**ligned **P**artition **A**llocated is a native [partition table](#pt) format for the PS2 that can only be used on internal storage media. It is the only one from which the PS2 can start [System Update](#osdupd).
 
-I recommend reading the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md).
+I recommend reading the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html).
 
 - - -
 
@@ -23,7 +23,7 @@ I recommend reading the following guide: [Internal Storage vs. External Storage]
 
 **APA**-**J**ail combines two formats: [APA](#apa) and [MBR/GPT](#pt), allowing the PS2 to start [System Update](#osdupd) while keeping the [exFAT](#fs) partition fully accessible on a PC without any additional software.
 
-I recommend reading the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md) or the [PS2HDH](https://www.psx-place.com/resources/ps2-hdd-decryption-helper.1507/) documentation.
+I recommend reading the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html) or the [PS2HDH](https://www.psx-place.com/resources/ps2-hdd-decryption-helper.1507/) documentation.
 
 - - -
 
@@ -32,7 +32,7 @@ I recommend reading the following guide: [Internal Storage vs. External Storage]
 
 AppID is a unique identifier for a homebrew application used in [SAS and mSAS](#sas) packages.
 
-I recommend reading the following guide: [SAS and microSAS Packages](SAS%20and%20microSAS%20Packages.md).
+I recommend reading the following guide: [SAS and microSAS Packages](SAS%20and%20microSAS%20Packages.html).
 
 - - -
 
@@ -329,7 +329,7 @@ See the [ESR](#esr) entry for more information.
 
 ### exFAT
 
-exFAT is one of the [file system](#fs) formats that can be used on storage media. You can read about where and when it can be used in the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md).
+exFAT is one of the [file system](#fs) formats that can be used on storage media. You can read about where and when it can be used in the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html).
 
 - - -
 
@@ -341,7 +341,7 @@ See the [ESR](#esr) entry for more information.
 
 ### FAT12 / FAT16 / FAT32
 
-The FAT family consists of [file system](#fs) formats that can be used on storage media. You can read about where and when it can be used in the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md).
+The FAT family consists of [file system](#fs) formats that can be used on storage media. You can read about where and when it can be used in the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html).
 
 - - -
 
@@ -350,7 +350,7 @@ The FAT family consists of [file system](#fs) formats that can be used on storag
 
 **F**ree **DVD** **B**oot is a DVD Player exploit.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
@@ -359,7 +359,7 @@ I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How
 
 **F**ree **HDB**oot is an [OSDSYS and HDD OSD](#osdsys) patcher. All versions are usually installed as a [System Update](#osdupd).
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
@@ -368,7 +368,7 @@ I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How
 
 A file system is a method used to organize, store, and manage data on storage media. It defines how files and directories are created, stored, and accessed by an operating system or other software. Different file systems have different limitations, such as allowed characters in file and directory names, maximum file sizes, and the size of storage media or partitions they can be used on.
 
-I recommend reading the following guide:  [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md).
+I recommend reading the following guide:  [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html).
 
 - - -
 
@@ -384,7 +384,7 @@ Firmware is software permanently stored in a device's memory that provides low-l
 
 **F**ree **McB**oot is an [OSDSYS](#osdsys) patcher. Up to and including version 1.8c, it was also an exploit. All versions are usually installed as a [System Update](#osdupd).
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
@@ -419,7 +419,7 @@ Devices such as [MMCE](#mmce), together with a game loader (e.g. [OPL](#opl)), u
 <a id="gpt"></a>
 ### GPT
 
-GPT is one of the [partition table](#pt) formats that can be used on storage media. You can read about where and when it can be used in the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md).
+GPT is one of the [partition table](#pt) formats that can be used on storage media. You can read about where and when it can be used in the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html).
 
 - - -
 
@@ -484,7 +484,7 @@ See the [OSDSYS](#osdsys) entry for more information.
 
 **HOSDM**enu is an [HDD OSD](#osdsys) patcher. It is usually started by [OSDMBR](#osdmbr), [PS2BBL](#ps2bbl), or [PS2BBLE](#ps2bble).
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
@@ -595,7 +595,7 @@ A disc image patched in a way that allows it to be recognized and accepted by DT
 <a id="mbr"></a>
 ### MBR
 
-MBR is one of the [partition table](#pt) formats that can be used on storage media. You can read about where and when it can be used in the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md).
+MBR is one of the [partition table](#pt) formats that can be used on storage media. You can read about where and when it can be used in the following guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html).
 
 - - -
 
@@ -631,7 +631,7 @@ See the [MMCE](#mmce) entry for more information.
 
 **MechaPwn** is a homebrew application that exploits an update feature of the Dragon [MechaCon](#mechacon) to modify its region and configuration flags. Depending on the [model](#models), it can disable PS1/PS2 disc region checks, change the console's reported region, and the [OSDSYS](#osdsys) and DVD Player regions.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
@@ -654,7 +654,7 @@ See the [SD Card](#sdcard) entry for more information.
 
 Every MMCE uses [VMC](#vmc) files stored on a [MicroSD](#sdcard) card, exposing each one (one at a time) to the console as a real memory card. Every MMCE also uses the **MMCE communication protocol**, which allows applications that support it to, for example, access its SD card directly (see [mount points](#mount-point)).
 
-I recommend reading the following guide: [Everything You Need to Know About SD2PSX](Everything%20You%20Need%20to%20Know%20About%20SD2PSX.md).
+I recommend reading the following guide: [Everything You Need to Know About SD2PSX](Everything%20You%20Need%20to%20Know%20About%20SD2PSX.html).
 
 - - -
 
@@ -779,7 +779,7 @@ A **N**etwork **A**daptor is an expansion device that provides the PlayStation 2
 
 **N**eu**tr**ino is a homebrew application, mainly used for playing games from disc images. While it is a [CLI](#cli) application, it needs to be run with arguments or via a dedicated [GUI](#gui).
 
-I recommend reading the following guide: [Neutrino GUI Flavors](Neutrino%20GUI%20Flavors.md).
+I recommend reading the following guide: [Neutrino GUI Flavors](Neutrino%20GUI%20Flavors.html).
 
 - - -
 
@@ -821,7 +821,7 @@ ODDE is an abbreviation for **O**ptical **D**isc **D**rive **E**mulator. Current
 
 **O**mni **L**aunch**E**LF is a homebrew file manager application.
 
-I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Flavors%20-%20unofficial%20LaunchELF.md).
+I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Flavors%20-%20unofficial%20LaunchELF.html).
 
 - - -
 
@@ -830,7 +830,7 @@ I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Fl
 
 **O**pen **P**S2 **L**oader is a homebrew application for playing games from disc images.
 
-I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.html).
 
 - - -
 
@@ -863,7 +863,7 @@ The official mechanism for loading firmware patches and replacements from a [PS2
 
 **OSDM**enu is an [OSDSYS](#osdsys) patcher. It is usually started by [LB](#lb), [ProtoPwn](#protopwn), [PS2BBL](#ps2bbl), or [PS2BBLE](#ps2bble).
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
@@ -872,7 +872,7 @@ I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How
 
 OSDMBR is an advanced [bootstrap](#bootstrap) used to initialize hardware and launch programs. It is installed inside `hdd0:/__mbr`.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
@@ -960,7 +960,7 @@ A patcher for [POPS](#pops) that significantly extends its functionality.
 
 **ProtoPwn** is an exploit for so-called protokernel [models](#models) that exploits a vulnerability in the [OSDSYS](#osdsys) update code to enable arbitrary code execution.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
@@ -1034,7 +1034,7 @@ PS2DVD is a disc containing a PlayStation 2 game distributed on a [Digital Versa
 
 **PS2** **L**auncher is a fork of Open PS2 Loader, a homebrew application for playing games from disc images.
 
-I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.html).
 
 - - -
 
@@ -1098,7 +1098,7 @@ Notes:
 
 **Ript**o's **O**pen **P**S2 **L**oader is a homebrew application for playing games from disc images.
 
-I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.html).
 
 - - -
 
@@ -1121,7 +1121,7 @@ SA is an abbreviation for [Service Area](#servicearea).
 
 **S**ave **A**pplication **S**ystem** and **m**icro **S**ave **A**pplication **S**ystem** packages are bundled applications that include metadata and configuration files, allowing users to easily add and remove applications themselves.
 
-I recommend reading the following guide: [SAS and microSAS Packages](SAS%20and%20microSAS%20Packages.md).
+I recommend reading the following guide: [SAS and microSAS Packages](SAS%20and%20microSAS%20Packages.html).
 
 - - -
 
@@ -1230,7 +1230,7 @@ SMB is a network-based protocol. It is used for streaming disc images and transf
 
 **S**table **O**pen **P**S2 **L**oader is a homebrew application for playing games from disc images.
 
-I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.html).
 
 - - -
 
@@ -1304,7 +1304,7 @@ UDPFS is a network-based protocol. It is used for streaming disc images and tran
 
 **u**nofficial **L**aunch**E**LF is a homebrew file manager application.
 
-I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Flavors%20-%20unofficial%20LaunchELF.md).
+I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Flavors%20-%20unofficial%20LaunchELF.html).
 
 - - -
 
@@ -1313,7 +1313,7 @@ I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Fl
 
 **u**nofficial **O**pen **P**S2 **L**oader is a homebrew application for playing games from disc images.
 
-I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.html).
 
 - - -
 
@@ -1355,7 +1355,7 @@ A **V**irtual **M**emory **C**ard and a **memory card image** are terms that ref
 
 **double**-**u**nofficial **L**aunch**E**LF is a homebrew file manager application.
 
-I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Flavors%20-%20unofficial%20LaunchELF.md).
+I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Flavors%20-%20unofficial%20LaunchELF.html).
 
 - - -
 
@@ -1364,7 +1364,7 @@ I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Fl
 
 **Double** **U**nofficial **O**pen **P**S2 **L**oader is a homebrew application for playing games from disc images.
 
-I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.html).
 
 - - -
 
@@ -1373,7 +1373,7 @@ I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors
 
 **X**box **to** **P**layStation is a homebrew application for playing games from disc images. Originally, it was an April Fools' joke to disguise [OPL](#opl) as a real Xbox [emulator](#emu).
 
-I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.html).
 
 - - -
 
@@ -1408,7 +1408,7 @@ See the [ELF](#elf) entry for more information.
 
 Similar to [OSDMBR](#osdmbr), XOSDMBR is a [bootloader](#bootloader), but it is installed on `xfrom0:/`.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
@@ -1417,10 +1417,10 @@ I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How
 
 **Y**et **A**nother **D**VD **E**xploit is a DVD Player exploit.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.html).
 
 - - -
 
 <br />Berion<br />2026-09-12
 
-<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
