@@ -7,7 +7,7 @@ title: "How to Start the R4D from USB Stick"
 
 You can't. :) [Recovery for Dummies]((https://psx-place.com/resources/recovery-for-dummies.1520/)) (or **R4D** for short) is a collection of tools, not a standalone application. It relies on existing methods to replace the boot menu or automatically launch a special version of **OSDMenu**, which means it requires an already hacked console.
 
-It is also very important to write the disk image to the USB stick correctly (see [How to Write the R4D Disk Image to a USB Stick.md](How%20to%20Write%20the%20R4D%20Disk%20Image%20to%20a%20USB%20Stick.md)). Otherwise, some features may not work properly.
+It is also very important to write the disk image to the USB stick correctly (see [How to Write the R4D Disk Image to a USB Stick.md](How%20to%20Write%20the%20R4D%20Disk%20Image%20to%20a%20USB%20Stick.html)). Otherwise, some features may not work properly.
 
 <p align="center"><img src="./images/icon_r4d.png" alt="R4D icon" width="60%"/></p>
 
@@ -49,4 +49,4 @@ If your console has a **Modbo** modchip with the **DEV3** feature, you can confi
 
 <br />Berion<br />2026-08-17
 
-<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
