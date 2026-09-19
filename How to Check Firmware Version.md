@@ -50,4 +50,4 @@ Updating the BOOTROM is impossible because it is stored on a ROM chip, which mea
 
 <br />Berion<br />2026-09-19
 
-<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="{{ site.baseurl }}/">main page</a></small></p>
