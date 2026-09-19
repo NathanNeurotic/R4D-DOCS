@@ -33,4 +33,4 @@ Higher resolutions can only be achieved with a **component** or **VGA** cable (*
 
 <br />Berion<br />2026-09-12
 
-<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>

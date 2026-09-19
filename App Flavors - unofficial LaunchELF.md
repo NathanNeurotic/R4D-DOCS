@@ -31,7 +31,7 @@ Fork based on one of the wLE versions, modified by *Balika*. Adds support for re
 
 ### wLaunchELF ISR 4.43x (rolling release) <sup>[[1](https://github.com/israpps/wLaunchELF_ISR)] [[2](https://israpps.github.io/projects/wlaunchelf-isr)] [[3](https://www.psx-place.com/threads/wlaunchelf-4-43x_isr.32655/)]</sup>
 
-Fork based on one of the wLE versions, modified by *El_isra*. It recognizes and allows editing of text files with the following extensions: **CFG**, **CNF**, **CHT**, and **INI**. It also preserves the modification timestamp of `mc?:/LAUNCHELF.CNF`, preventing it from interfering with the **Fortuna** and **OpenTuna** exploits. Depending on the edition (there are a plethora of variants for each release), it supports exFAT on [external storage](Internal%20Storage%20vs%20External%20Storage.md), **MX4SIO**, **MMCE**, and **dongles** on COH models.
+Fork based on one of the wLE versions, modified by *El_isra*. It recognizes and allows editing of text files with the following extensions: **CFG**, **CNF**, **CHT**, and **INI**. It also preserves the modification timestamp of `mc?:/LAUNCHELF.CNF`, preventing it from interfering with the **Fortuna** and **OpenTuna** exploits. Depending on the edition (there are a plethora of variants for each release), it supports exFAT on [external storage](Internal%20Storage%20vs%20External%20Storage.html), **MX4SIO**, **MMCE**, and **dongles** on COH models.
 
 ### wLaunchELF ISR HDD 4.43x <sup>[[1](https://github.com/israpps/wLaunchELF_ISR_HDD)] [[2](https://www.psx-place.com/threads/wlaunchelf-isr_hdd.34075/)]</sup>
 
@@ -47,4 +47,4 @@ The first wLE fork (based on wLE ISR), which unifies all previously unique featu
 
 <br />Berion<br />2026-08-01
 
-<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>

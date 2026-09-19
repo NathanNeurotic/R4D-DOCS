@@ -31,7 +31,7 @@ While SD2PSX is a DIY project (i.e., it has to be built by hand), there are seve
 
 ## Terminology
 
-All the mysterious acronyms, abbreviations, and terms I use throughout this guide you can find in the [glossary](Glossary.md).
+All the mysterious acronyms, abbreviations, and terms I use throughout this guide you can find in the [glossary](Glossary.html).
 
 ## Firmware Update
 
@@ -234,4 +234,4 @@ The defragmentation process can be very long and cumbersome, while also unnecess
 
 <br />Berion<br />2026-09-04
 
-<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>

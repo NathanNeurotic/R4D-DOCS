@@ -93,4 +93,4 @@ When it comes to sector size, the drivers and libraries used on the **PlayStatio
 
 <br />Berion<br />2026-08-01
 
-<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
