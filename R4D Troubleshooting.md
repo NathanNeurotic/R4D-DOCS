@@ -1,3 +1,8 @@
+---
+layout: default
+title: "R4D Troubleshooting"
+---
+
 # R4D Troubleshooting
 
 ## USB Incompatibility

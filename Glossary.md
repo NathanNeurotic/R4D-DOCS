@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Glossary"
+---
+
 # Glossary
 
 Below you will find all the mysterious acronyms, abbreviations, and terms I use throughout the guides. This includes basic IT and PS2 scene terminology that you may encounter, for example, on social media.
@@ -345,7 +350,7 @@ The FAT family consists of [file system](#fs) formats that can be used on storag
 
 **F**ree **DVD** **B**oot is a DVD Player exploit.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 
@@ -354,7 +359,7 @@ I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How
 
 **F**ree **HDB**oot is an [OSDSYS and HDD OSD](#osdsys) patcher. All versions are usually installed as a [System Update](#osdupd).
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 
@@ -379,7 +384,7 @@ Firmware is software permanently stored in a device's memory that provides low-l
 
 **F**ree **McB**oot is an [OSDSYS](#osdsys) patcher. Up to and including version 1.8c, it was also an exploit. All versions are usually installed as a [System Update](#osdupd).
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 
@@ -479,7 +484,7 @@ See the [OSDSYS](#osdsys) entry for more information.
 
 **HOSDM**enu is an [HDD OSD](#osdsys) patcher. It is usually started by [OSDMBR](#osdmbr), [PS2BBL](#ps2bbl), or [PS2BBLE](#ps2bble).
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 
@@ -626,7 +631,7 @@ See the [MMCE](#mmce) entry for more information.
 
 **MechaPwn** is a homebrew application that exploits an update feature of the Dragon [MechaCon](#mechacon) to modify its region and configuration flags. Depending on the [model](#models), it can disable PS1/PS2 disc region checks, change the console's reported region, and the [OSDSYS](#osdsys) and DVD Player regions.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 
@@ -858,7 +863,7 @@ The official mechanism for loading firmware patches and replacements from a [PS2
 
 **OSDM**enu is an [OSDSYS](#osdsys) patcher. It is usually started by [LB](#lb), [ProtoPwn](#protopwn), [PS2BBL](#ps2bbl), or [PS2BBLE](#ps2bble).
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 
@@ -867,7 +872,7 @@ I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How
 
 OSDMBR is an advanced [bootstrap](#bootstrap) used to initialize hardware and launch programs. It is installed inside `hdd0:/__mbr`.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 
@@ -955,7 +960,7 @@ A patcher for [POPS](#pops) that significantly extends its functionality.
 
 **ProtoPwn** is an exploit for so-called protokernel [models](#models) that exploits a vulnerability in the [OSDSYS](#osdsys) update code to enable arbitrary code execution.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 
@@ -1403,7 +1408,7 @@ See the [ELF](#elf) entry for more information.
 
 Similar to [OSDMBR](#osdmbr), XOSDMBR is a [bootloader](#bootloader), but it is installed on `xfrom0:/`.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 
@@ -1412,7 +1417,7 @@ I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How
 
 **Y**et **A**nother **D**VD **E**xploit is a DVD Player exploit.
 
-I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md).
 
 - - -
 

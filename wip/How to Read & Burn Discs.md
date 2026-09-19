@@ -1,3 +1,8 @@
+---
+layout: default
+title: "How to Read & Burn Discs"
+---
+
 # How to Read & Burn Discs
 
 ## Introduction
@@ -27,17 +32,4 @@ Your PS2 may stop reading **DVD DL** discs while still reading **CDs** and **DVD
 - Everything described above applies to **SCPH** and **KDL** models. On **DESR** models, it applies only to the **PS2 laser** assembly, not the **DVR laser** assembly.
 - **ODD** stands for **Optical Disc Drive**, and **ODDW** stands for **Optical Disc Drive Writer**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="../index.md">main page</a></small></p>

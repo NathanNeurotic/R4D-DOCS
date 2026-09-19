@@ -1,3 +1,8 @@
+---
+layout: default
+title: "How Recovery Mode Work on the PS2"
+---
+
 # How Recovery Mode Work on the PS2
 
 Recovery mode is not implemented in the official firmware (the so-called BIOS) of SCPH and KDL models. COH and DESR are separate hardware categories and require a separate guide. Normally, users never need recovery mode.
@@ -6,7 +11,7 @@ The PS2 firmware (**BOOTROM** and **DVDROM**) is stored on ROM chips, which, as 
 
 The problem arises with exploits, which often require another exploit to install them. Since users typically have access to only one exploit -- or can use only one because of their console model or lack of the required hardware -- a recovery mode that ignores the user's configuration and allows any application to be launched becomes extremely useful.
 
-Of course, recovery can also be performed using any available [attack vector](How%20to%20Hack%20PlayStation%202%20in%202026.md), such as another PS2 Memory Card with Free McBoot (FMCB), an internal hard disk drive, Free DVD Boot (FDVDB), and so on. However, the purpose of recovery mode is to use the same exploit that is already installed -- one that is still functional, but whose configuration and/or resources have become corrupted and need to be restored or replaced.
+Of course, recovery can also be performed using any available [attack vector](How%20to%20Hack%20a%20PlayStation%202%20in%202026.md), such as another PS2 Memory Card with Free McBoot (FMCB), an internal hard disk drive, Free DVD Boot (FDVDB), and so on. However, the purpose of recovery mode is to use the same exploit that is already installed -- one that is still functional, but whose configuration and/or resources have become corrupted and need to be restored or replaced.
 
 ## LoadBOOTer (LB)
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "How to Update Free McBoot"
+---
+
 # How to Update Free McBoot
 
 If Free McBoot is installed as a **System Update** (OSD Update), it cannot be updated directly. This is because the existing installation must first be uninstalled before the new version can be installed. This requirement makes little sense, even for users with a cross-linked installation (commonly referred to as a "Multi Install"), since the old installation still has to be removed before the new one can be installed. The recommended approach is to back up your save data to another device or another PS2 Memory Card, perform a **full format**, and then install the new version (see **Scenario I**).

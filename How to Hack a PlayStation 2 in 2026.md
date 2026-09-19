@@ -1,3 +1,8 @@
+---
+layout: default
+title: "How to Hack PlayStation 2 in 2026"
+---
+
 # How to Hack PlayStation 2 in 2026
 
 It is now **late 2026**, and there are still enthusiasts around the world who are willing not only to play on such an ancient console, but also to look for new ways to exploit it, write and improve homebrew programs. If you are a new user, you have probably already dug through tons of articles and guides (usually heavily outdated, as they are at least a decade old), and the sheer amount of information may leave you feeling confused.

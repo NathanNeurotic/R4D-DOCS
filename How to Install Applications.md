@@ -1,3 +1,8 @@
+---
+layout: default
+title: "How to Install Applications"
+---
+
 # How to Install Applications
 
 The PlayStation 2 does not have a built-in operating system. As a result, there has never been an official standard for either application naming or their installation locations on the PS2 Memory Card. Developers of homebrew applications -- unofficial software created by the community -- never followed a common convention because Sony never defined one.

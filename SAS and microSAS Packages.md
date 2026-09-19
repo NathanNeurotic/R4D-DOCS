@@ -1,3 +1,8 @@
+---
+layout: default
+title: "SAS and microSAS Packages"
+---
+
 # SAS and microSAS Packages
 
 **SAS** and **mSAS** packages are bundled applications that include metadata and configuration files, allowing users to easily add and remove applications themselves. Simply select a PSU file in the file manager, copy it, and use the `psuPaste` (uLE and most wLE versions) / `Extract PSU` (wLE R3Z) option to paste it onto a **PlayStation 2 Memory Card** (for more details, see this [guide](How%20to%20Install%20Applications.md)).

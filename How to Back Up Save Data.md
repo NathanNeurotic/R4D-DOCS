@@ -1,3 +1,8 @@
+---
+layout: default
+title: "How to Back Up Save Data"
+---
+
 # How to Back Up Save Data
 
 On the PS2, game saves are stored exclusively on a **PS2 Memory Card**. A PS1 Memory Card is used only for PS1 game saves because it is both too small (128 KiB) and uses a completely different, incompatible logical structure.

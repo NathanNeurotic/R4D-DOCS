@@ -1,3 +1,8 @@
+---
+layout: default
+title: "How to Check Firmware Version"
+---
+
 # How to Check Firmware Version
 
 The BOOTROM version is largely irrelevant to most PS2 owners. This is because **System Update** (also known as **OSD Update**) works on almost all consoles, allowing applications such as Free McBoot to be launched automatically when the console starts. However, if the user does not have an internal hard drive and does not have a PlayStation 2 Memory Card with working MagicGate, it determines which variant of **OpenTuna** should be used (or eventually **ProtoPwn**, if they have one of the so-called protokernel models). Oh, and there are also 90K model owners. ;)

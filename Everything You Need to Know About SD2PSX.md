@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Everything You Need to Know About SD2PSX"
+---
+
 # Everything You Need to Know About SD2PSX
 
 [SD2PSX](https://sd2psx.net/) is the first memory card emulator in the history of the so-called PlayStation 2 scene. <span style="color: #D32F2F;">It works on literally every PS2 model (SCPH, DESR, KDL, DTL-H, COH) and every console firmware version.</span> The **MMCE** (**M**ultipurpose **M**emory **C**ard **E**mulator) makes it possible to use a virtual card stored on a **microSD**, which is recognized by the console as a genuine **PlayStation Memory Card**, **PlayStation 2 Memory Card**, or **Arcade Dongle**, including support for **MagicGate** authentication. What's more, MMCE can also be used <span style="color: #D32F2F;">simultaneously</span> as the storage medium from which a game disc image is loaded.

@@ -1,5 +1,9 @@
 # R4D DOCS
 
-Documentation for Recovery for Dummies (R4D).
+Markdown source for the **Recovery for Dummies (R4D)** documentation site.
 
-The documentation source is written in Markdown. See [index.md](index.md) for the documentation index.
+- Documentation home: [index.md](index.md)
+- Published site: <https://nathanneurotic.github.io/R4D-DOCS/>
+- Work-in-progress material: [`wip/`](wip/)
+
+The documentation remains a work in progress. Some referenced screenshots and future guides are not present in the current source bundle.

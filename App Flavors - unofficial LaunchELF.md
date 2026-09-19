@@ -1,3 +1,8 @@
+---
+layout: default
+title: "unofficial LaunchELF Flavors"
+---
+
 # unofficial LaunchELF Flavors
 
 The **LaunchELF** project gave rise to **LbFn** <sup>[[1](https://wiki.nika-2ch.net/?appli/LbFn)] [[2](https://github.com/ps2homebrew/LbFn)]</sup> and a plethora of **unofficial LaunchELF** forks. So many of the latter have been created that it can be difficult for anyone who does not actively follow the so-called scene to choose the right one. Below is a list of uLE versions, arranged in chronological order based on when the projects first appeared. Each entry includes a brief description of how it differs from the others.

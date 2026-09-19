@@ -1,3 +1,8 @@
+---
+layout: default
+title: "How to Write the R4D Disk Image to a USB Stick"
+---
+
 # How to Write the R4D Disk Image to a USB Stick
 
 [Recovery for Dummies (R4D)](https://psx-place.com/resources/recovery-for-dummies.1520/) (or **R4D** for short) is distributed as a **disk image**, not a disc image. Therefore, it must be written directly to a USB stick -- it cannot simply be copied like a regular file.

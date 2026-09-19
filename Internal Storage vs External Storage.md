@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Internal Memory vs. External Memory"
+---
+
 # Internal Memory vs. External Memory
 
 The **PlayStation 2** does not have an operating system, which means that storage is managed *independently by each application*. Programs can use the firmware's built-in modules, but these are available only for the internal hard drive (excluding the so-called proto kernel models). As a result, the supported logical structures vary depending on both the application and the storage device. In the following sections, I will explain these differences, which can be -- and often are -- confusing for people who are new to the PS2 homebrew scene.
