@@ -2,3 +2,21 @@ title: R4D DOCS
 description: Recovery for Dummies documentation
 theme: jekyll-theme-midnight
 markdown: kramdown
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+
+optional_front_matter:
+  remove_originals: true
+
+relative_links:
+  enabled: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
