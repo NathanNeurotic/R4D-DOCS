@@ -1,8 +1,13 @@
+---
+layout: default
+title: "R4D DOCS"
+---
+
 # R4D DOCS
 
 Markdown source for the **Recovery for Dummies (R4D)** documentation site.
 
-- Documentation home: [index.md](index.md)
+- Documentation home: [index.md](index.html)
 - Published site: <https://nathanneurotic.github.io/R4D-DOCS/>
 - Work-in-progress material: [`wip/`](wip/)
 
