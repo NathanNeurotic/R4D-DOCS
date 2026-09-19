@@ -9,7 +9,7 @@ It is now **late 2026**, and there are still enthusiasts around the world who ar
 
 No worries! I have prepared this roadmap specifically for you. It will not guide you step by step because it is not a detailed guide, but it will show you what options are available and which path you should take based on the PS2 model and accessories you have. As of today, these are all known public methods, categorized and sorted alphabetically.
 
-<p align="center"><img src="./images/dizzy.jpg" width=60%"/></p>
+<p align="center"><img src="./images/dizzy.jpg" width="60%""/></p>
 
 ## A. Optical Disc
 
@@ -283,7 +283,7 @@ A special chip soldered to the console that tricks the PS2 optical drive into tr
 | Permanent:      | <span style="color:#BD0000">yes</span>, until desoldered |
 
 <br />
-<p align="center"><img src="./images/curiouscat.jpg" width=60%"/></p>
+<p align="center"><img src="./images/curiouscat.jpg" width="60%""/></p>
 <br />
 
 ## Choosing the right method

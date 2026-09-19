@@ -9,6 +9,6 @@ Markdown source for the **Recovery for Dummies (R4D)** documentation site.
 
 - Documentation home: [index.md](index.html)
 - Published site: <https://nathanneurotic.github.io/R4D-DOCS/>
-- Work-in-progress material: [`wip/`](wip/)
+- Work-in-progress material: [`wip/`](wip/How%20to%20Read%20%26%20Burn%20Discs.html)
 
 The documentation remains a work in progress. Some referenced screenshots and future guides are not present in the current source bundle.

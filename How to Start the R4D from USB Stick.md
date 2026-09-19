@@ -5,7 +5,7 @@ title: "How to Start the R4D from USB Stick"
 
 # How to Start the R4D from USB Stick
 
-You can't. :) [Recovery for Dummies]((https://psx-place.com/resources/recovery-for-dummies.1520/)) (or **R4D** for short) is a collection of tools, not a standalone application. It relies on existing methods to replace the boot menu or automatically launch a special version of **OSDMenu**, which means it requires an already hacked console.
+You can't. :) [Recovery for Dummies](https://www.psx-place.com/resources/recovery-for-dummies.1520/) (or **R4D** for short) is a collection of tools, not a standalone application. It relies on existing methods to replace the boot menu or automatically launch a special version of **OSDMenu**, which means it requires an already hacked console.
 
 It is also very important to write the disk image to the USB stick correctly (see [How to Write the R4D Disk Image to a USB Stick.md](How%20to%20Write%20the%20R4D%20Disk%20Image%20to%20a%20USB%20Stick.html)). Otherwise, some features may not work properly.
 
