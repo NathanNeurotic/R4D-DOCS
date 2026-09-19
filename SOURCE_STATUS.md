@@ -12,6 +12,10 @@ Three already-referenced guides were not present in the supplied archive, so pla
 - `How to Format Memory Cards.md`
 - `How to Install Exploit.md`
 
+## Supplied binary assets
+
+The source archive contains **31 image files** under `images/`. The current GitHub connector can write repository text/Git objects but cannot directly consume binary files from a conversation upload, so those supplied image binaries still need to be added to the repository's `images/` directory through a binary-capable Git/GitHub upload path. The Markdown filenames have been left intact so adding that directory later requires no documentation rewrite.
+
 ## Referenced images not present in the supplied archive
 
 The following image filenames are referenced by the Markdown but were not included in `tutorials.zip`:
