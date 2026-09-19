@@ -325,4 +325,4 @@ A fork based on one of the OPL 1.2.0 beta builds, with a modified GUI that resem
 
 <br />Berion<br />2026-08-05
 
-<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="{{ site.baseurl }}/">main page</a></small></p>
