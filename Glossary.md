@@ -997,3 +997,425 @@ Because the PS2MC has a [file system](#fs) (called [MCFS](#mcfs)), users can als
 
 <a id="psbbn"></a>
 ### PSBBN
+**P**lay**S**tation **B**road**b**and **N**avigator is an optional Linux distribution that served as a [dashboard](#dashboard) for Japanese models. It has the same functionality as [HDD OSD](#osdsys), but also allows users to access and download content from the internet. We can say that PSBBN was a precursor to the PlayStation Store, which later appeared on other Sony consoles.
+
+For unknown reasons, ;) PSBBN is often confused with PS2BBL. Both are completely different things.
+
+- - -
+
+<a id="psbbndp"></a>
+### PSBBN DP / PSBBN DEP
+
+**PSBBN D**efinitive **P**atch (older name: **PSBBN D**efinitive **E**nglish **P**atch) is a toolkit that reformats the entire internal drive to [APA-Jail](#apajail), installs [PSBBN](#psbbn), and translates it into various of languages.
+
+- - -
+
+<a id="ps2cd"></a>
+### PS2CD
+
+PS2CD is a disc containing a PlayStation 2 game distributed on a [Compact Disc](https://en.wikipedia.org/wiki/Compact_disc). The term usually refers to the original media (PS2CD-ROM, so-called "blue disc").
+
+- - -
+
+<a id="ps2dvd"></a>
+### PS2DVD
+
+PS2DVD is a disc containing a PlayStation 2 game distributed on a [Digital Versatile Disc](https://en.wikipedia.org/wiki/DVD). The term usually refers to the original media (PS2DVD-ROM, so-called "yellow disc").
+
+- - -
+
+<a id="ps2l"></a>
+### PS2L
+
+**PS2** **L**auncher is a fork of Open PS2 Loader, a homebrew application for playing games from disc images.
+
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+
+- - -
+
+<a id="psxcd"></a>
+### PSXCD
+
+PSXCD (or, if you prefer, **PS1CD**) is a disc containing a PlayStation game. The term usually refers to the original media (PSXCD-ROM, so-called "black disc").
+
+- - -
+
+### PSXMC
+
+See the [PS1MC](#ps1mc) entry for more information.
+
+- - -
+
+### PSXMCG1 / PSXMCG2
+
+See the [MMCE](#mmce) entry for more information.
+
+- - -
+
+### PT
+
+See the [Partition Table](#pt) entry for more information.
+
+- - -
+
+<a id="r4d"></a>
+### R4D
+
+**R**ecovery **for** **D**ummies is a USB stick image containing various preconfigured software focused on servicing and exploiting the PS2.
+
+- - -
+
+<a id="ram"></a>
+### RAM
+
+PS2 [models](#models) use several types of system memory, depending on the model and its purpose.
+
+| Type      | Capacity | Models             | Purpose |
+|-|-|-|-|
+| RDRAM     | 32 MiB   | SCPH and DTL-H     | standard RAM |
+| RDRAM     | 64 MiB   | DESR               | standard RAM |
+| RDRAM     | 128 MiB  | DTL-T              | standard RAM |
+| EDO RAM   | 2 MiB    | SCPH-70K and older | modules storage |
+| EDO RAM   | 4 MiB    | COH                | modules storage |
+| EDO RAM   | 8 MiB    | DESR and DTL-T     | modules storage |
+| DDR-SDRAM | 4 MiB    | SCPH-75K and newer | modules storage (2 MiB used by Deckard itself) |
+
+Notes:
+
+- Games cannot use the extra RAM. For them, the available address space is always 32 MiB (on the EE side) and 2 MiB (on the IOP/Deckard side).
+- DDR-SDRAM replaces EDO RAM in [Deckard](#deckard) models.
+- IOP RAM is shorthand for EDO RAM.
+
+- - -
+
+<a id="riptopl"></a>
+### RiptOPL
+
+**Ript**o's **O**pen **P**S2 **L**oader is a homebrew application for playing games from disc images.
+
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+
+- - -
+
+<a id="rtc"></a>
+### RTC
+
+**R**eal-**T**ime **C**lock is a hardware clock that keeps track of the current date and time. In the PS2, it is powered by a CR2032 coin cell when the console is turned off.
+
+- - -
+
+<a id="sa"></a>
+### SA
+
+SA is an abbreviation for [Service Area](#servicearea).
+
+- - -
+
+<a id="sas"></a>
+### SAS / mSAS
+
+**S**ave **A**pplication **S**ystem** and **m**icro **S**ave **A**pplication **S**ystem** packages are bundled applications that include metadata and configuration files, allowing users to easily add and remove applications themselves.
+
+I recommend reading the following guide: [SAS and microSAS Packages](SAS%20and%20microSAS%20Packages.md).
+
+- - -
+
+<a id="sata"></a>
+### SATA
+
+**S**erial **A**dvanced **T**echnology **A**ttachment is a standard for connecting storage devices using a serial data interface. While it is the successor to [PATA](#pata), connecting a SATA drive to a PS2 requires additional hardware, such as a custom [Network Adaptor](#nwa) or a SATA board for the original one.
+
+- - -
+
+<a id="save-container"></a>
+### Save Container
+
+A Save Container is an archive containing a game save. PSX game saves are individual files and, apart from their names, do not contain any other significant metadata. PS2 game saves are folders containing the game save itself, icons, icon metadata, as well as important file timestamps and attributes. To avoid losing any of this information when copying saves to, for example, a USB stick, archiving programs allow them to be packed into formats such as `*.psu`.
+
+**PlayStation** container formats:
+
+| Extension | Native for:               |
+|-|-|
+| *.mcs     | MemCard Rex, PSXGameEdit  |
+| *.psv     | PS3                       |
+
+**PlayStation 2** container formats:
+
+| Extension | Native for:               | Preserve Timestamps |
+|-|-|-|
+| *.cbs     | Code Breaker              | no  |
+| *.max     | Action Replay Max         | no  |
+| *.psu     | EMS Linker, PS2 apps      | yes |
+| *.psv     | PS3                       | yes |
+| *.sps     | GameShark                 | no  |
+| *.xps     | Xploder                   | no  |
+
+- - -
+
+<a id="scph"></a>
+### SCPH
+
+See the [models](#models) entry for more information.
+
+- - -
+
+<a id="sdcard"></a>
+### SD Card
+
+An SD Card is a removable flash memory card used to store data and transfer it between compatible devices. In the context of this guide, SD Cards are primarily used as storage media for PS2-related applications and devices such as [MMCE](#mmce) and [MX4SIO](#mx4sio), but they can also be used as [USB](#usb)/[i.Link](#ilink) storage media via a dedicated reader. Not every SD Card is compatible with MX4SIO/MMCE, for reasons that are currently unknown.
+
+SD Cards are available in different physical formats, with **standard SD** and **MicroSD** being the most common. While MicroSD cards can be used in devices designed for standard SD Cards with a suitable adapter, they should be avoided due to potential compatibility issues.
+
+- - -
+
+### SD2PSX
+
+See the [MMCE](#mmce) entry for more information.
+
+- - -
+
+<a id="sd2psxtd"></a>
+### sd2psXtd
+
+[sd2psXtd](https://github.com/sd2psXtd/firmware) is [firmware](#firmware) for [SD2PSX](#mmce) and all devices based on it.
+
+- - -
+
+<a id="servicearea"></a>
+### Service Area
+
+**S**ervice **A**rea is a reserved area on a hard drive that contains part of the disk [firmware](#firmware), configuration, and other data used for drive maintenance and operation, including the [HDD ID](#hddid) sector.
+
+- - -
+
+<a id="smb"></a>
+### SMB
+
+SMB is a network-based protocol. It is used for streaming disc images and transferring files. The majority of PS2 applications support only SMB v1. Some support SMB v2 ([RiptOPL](#opl)), while some others support SMB v3 ([smbLaunchELF/NETFS](#wle)).
+
+- - -
+
+<a id="sms"></a>
+### SMS / SMS3
+
+**S**imple **M**edia **S**ystem is a homebrew media player application. SMS**3** is a reworked modern version, introduced to distinguish the 3.0 line from the old 2.9 version.
+
+- - -
+
+<a id="consoles"></a>
+### Sony Consoles
+
+**PS2** is an abbreviation for the **P**lay**S**tation **2** console, which probably needs no explanation. **PSX**, on the other hand, is a bit more complicated, as it comes from the project's codename: **P**lay**S**tation-**X**. Long ago, even before the release of the PlayStation One (i.e. the smaller version of the PSX; not to be confused with the PlayStation Classic), the PSX acronym became commonly used to refer to this console. Later on, the **PS1** abbreviation became increasingly popular -- and today it is the dominant one. Unfortunately for all old farts like me, Sony released a special PS2 model designated **DESR**, which they called... PSX. Throughout any of my guides, whenever you see PSX, it refers exclusively to the PlayStation, because I have a syntactic fetish and reject neologisms. ;)
+
+| | |
+|-|-|
+| PS1 (PSX :P) | PlayStation |
+| PS2          | PlayStation 2 |
+| PS3          | PlayStation 3 |
+| PS4          | PlayStation 4 |
+| PS5          | PlayStation 5 |
+| PSC          | PlayStation Classic |
+| PSP          | PlayStation Portable |
+| PSV/PSTV     | PlayStation Vita/TV |
+
+- - -
+
+<a id="sopl"></a>
+### sOPL
+
+**S**table **O**pen **P**S2 **L**oader is a homebrew application for playing games from disc images.
+
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+
+- - -
+
+<a id="ssd"></a>
+### SSD
+
+**S**olid-**S**tate **D**rive is a storage device that uses flash memory to store data instead of magnetic disks. SSDs have no moving parts and are generally faster and more resistant to physical shock than HDDs. However, compatibility with the PS2 may vary for unknown reasons.
+
+SSDs are strongly recommended for [HDD OSD](#osdsys) and [PSBBN](#psbbn) because they significantly reduce the time required to parse the [APA](#apa) chain.
+
+- - -
+
+### SW
+
+Abbreviation for softmware.
+
+- - -
+
+<a id="syscon"></a>
+### SysCon
+
+**Sys**tem **Con**troller is a **Toshiba TMP87C807U** microcontroller used in early PS2 models to manage various system-level functions, such as power management, front-panel buttons, and thermal management. Starting with the SCPH-50K [models](#models), its functionality was integrated into [Dragon](#mechacon).
+
+- - -
+
+### System Update
+
+See the [OSD Update](#osdupd) entry for more information.
+
+- - -
+
+<a id="udf"></a>
+### UDF
+
+**U**niversal **D**isk **F**ormat is the [file system](#fs) used on [PS2DVD](#ps2dvdrom) discs (Mode 1: 2048). The PS2 uses UDF version 1.02.
+
+See the [Mode](#mode) entry for more information.
+
+- - -
+
+<a id="udm"></a>
+### UDM
+
+UDM is an official [firmware](#firmware) package format for [DVRP](#dvrp).
+
+- - -
+
+<a id="udpbd"></a>
+### UDPBD
+
+UDPBD is a network-based block device protocol. It is used only for streaming disc images.
+
+- - -
+
+<a id="udpfs"></a>
+### UDPFS
+
+UDPFS is a network-based protocol. It is used for streaming disc images and transferring files.
+
+- - -
+
+<a id="usb"></a>
+### USB
+
+**U**niversal **S**erial **B**us is a standard for connecting peripheral devices and transferring data. The PlayStation 2 is equipped with USB **1.1** ports, so newer USB 2.0 and USB 3.x devices are backward compatible with them, but they cannot operate at their full speed when connected to a PS2. Not every USB device is compatible with the PS2, even if it uses a compatible USB standard.
+
+- - -
+
+<a id="ule"></a>
+### uLE / uLaunchELF
+
+**u**nofficial **L**aunch**E**LF is a homebrew file manager application.
+
+I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Flavors%20-%20unofficial%20LaunchELF.md).
+
+- - -
+
+<a id="uopl"></a>
+### uOPL
+
+**u**nofficial **O**pen **P**S2 **L**oader is a homebrew application for playing games from disc images.
+
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+
+- - -
+
+<a id="vmc"></a>
+### VMC
+
+A **V**irtual **M**emory **C**ard and a **memory card image** are terms that refer to the same thing and are used interchangeably. Although [Open PS2 Loader](#opl) and [Neutrino](#ntr) have a feature called VMC, it should not be confused with VMC in [MMCE](#mmce). In OPL and Neutrino, VMC is a software feature that provides virtual memory card functionality by modifying the way the game accesses the memory card. In MMCE, VMC refers to a memory card image that is exposed to the console as a genuine memory card, with the emulation performed at the hardware level.
+
+**PlayStation** VMC formats:
+
+| Extension | Native for:               | Raw |
+|-|-|-|
+| *.ddf     | [VirtualGameSystem](#emu) | no  |
+| *.gme     | DexDrive                  | no  |
+| *.mc1     | [MCP2](#mmce)             | yes |
+| *.mcd     | [SD2PSX](#mmce)           | yes |
+| *.mcr     | [ePSXe](#emu)             | yes |
+| *.srm     | [RetroArch](#emu)         | yes |
+| *.vm1     | [PS3](#consoles)          | yes |
+| *.vmc     | [POPS](#pops)             | yes |
+| *.vgs     | [VirtualGameSystem](#emu) | no  |
+| *.vmp     | [PSP](#consoles)          | no  |
+
+**PlayStation 2** VMC formats:
+
+| Extension | Native for:               | Raw | [ECC](#ecc-non-ecc) | Encryption |
+|-|-|-|-|-|
+| *.bin     | PS2 apps                  | yes | no  | no  |
+| *.mc2     | [MCP2](#mmce)             | yes | no  | no  |
+| *.mcd     | [SD2PSX](#mmce)           | yes | no  | no  |
+| *.ps2     | [PCSX2](#emu)             | yes | yes | no  |
+| *.vm2     | [PS3](#consoles)          | yes | yes | no  |
+| *.vme     | [PS3](#consoles)          | yes | yes | yes |
+
+- - -
+
+<a id="wle"></a>
+### wLE / wLaunchELF
+
+**double**-**u**nofficial **L**aunch**E**LF is a homebrew file manager application.
+
+I recommend reading the following guide: [unofficial LaunchELF Flavors](App%20Flavors%20-%20unofficial%20LaunchELF.md).
+
+- - -
+
+<a id="wopl"></a>
+### wOPL
+
+**Double** **U**nofficial **O**pen **P**S2 **L**oader is a homebrew application for playing games from disc images.
+
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+
+- - -
+
+<a id="x2p"></a>
+### X2P
+
+**X**box **to** **P**layStation is a homebrew application for playing games from disc images. Originally, it was an April Fools' joke to disguise [OPL](#opl) as a real Xbox [emulator](#emu).
+
+I recommend reading the following guide: [Open PS2 Loader Flavors](App%20Flavors%20-%20Open%20PS2%20Loader.md).
+
+- - -
+
+<a id="xeb"></a>
+### XEB / XEB+
+
+**X**treeme **E**lite **B**oot **Plus** is a [dashboard](#dashboard) that, although it imitates the [XMB](#xmb), prioritizes its multimedia capabilities over its primary purpose of launching applications and offers great flexibility when designing plugins. It was written using [Enceladus](), a **Lua** runtime environment, so both XEB+ itself and all its plugins are written in **Lua**.
+
+- - -
+
+### XIN
+
+See the [ELF](#elf) entry for more information.
+
+- - -
+
+### XLF
+
+See the [ELF](#elf) entry for more information.
+
+- - -
+
+<a id="xmb"></a>
+### XMB
+
+**Cross** **M**edia **B**ar is a type of menu first used in [DESR and KDL](#models), later continued on the [PSP and PS3](#consoles), and eventually abandoned on newer models.
+
+- - -
+
+<a id="xosdmbr"></a>
+### XOSDMBR
+
+Similar to [OSDMBR](#osdmbr), XOSDMBR is a [bootloader](#bootloader), but it is installed on `xfrom0:/`.
+
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+
+- - -
+
+<a id="yade"></a>
+### YADE
+
+**Y**et **A**nother **D**VD **E**xploit is a DVD Player exploit.
+
+I recommend reading the following guide: [How to Hack PlayStation 2 in 2026](How%20to%20Hack%20PlayStation%202%20in%202026.md).
+
+- - -
+
+<br />Berion<br />2026-09-12
+
+<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
