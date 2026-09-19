@@ -100,7 +100,7 @@ Additionally, `xfrom0:/` may become usable on SCPH-50K models in the future thro
 
 The list does not include **PS1 environment** exploits, namely [Free PSX Boot](https://github.com/brad-lin/FreePSXBoot), [TonyHax](https://github.com/socram8888/tonyhax), and [TonyHax International](https://alex-free.github.io/tonyhax-international/), because they <span style="color:#BD0000">cannot</span> be used to hack the **PS2 environment**, or at least nobody has yet figured out a way to escape from PS1 Mode (theoretically, this may even be impossible). They also all work exclusively with PS1MC (a Memory Card for PlayStation/PlayStation One).
 
-**MMCE** (**M**ultipurpose **M**emory**C**ard **E**mulator), as the name suggests, is a device that emulates memory cards and, among other things, allows you to select an image (PS1MC/PS2MC) to be presented as a physical card. Therefore, everything in this section that applies to a physical card also applies to MMCE devices. You can read more about MMCE in the dedicated guide: [Everything You Need to Know About SD2PSX](Everything%20You%20Need%20to%20Know%20About%20SD2PSX.md).
+**MMCE** (**M**ultipurpose **M**emory**C**ard **E**mulator), as the name suggests, is a device that emulates memory cards and, among other things, allows you to select an image (PS1MC/PS2MC) to be presented as a physical card. Therefore, everything in this section that applies to a physical card also applies to MMCE devices. You can read more about MMCE in the dedicated guide: [Everything You Need to Know About SD2PSX](Everything%20You%20Need%20to%20Know%20About%20SD2PSX.html).
 
 If you have a [PS3 Memory Card Adaptor](https://www.psdevwiki.com/ps3/Card_Adapter) (<span style="color:#BD0000">it must be the original one</span>), you can also transfer anything you want to the Memory Card directly from a PC using the dedicated PS3MCA Tool (no link because it was taken down following a DMCA request) and, of course, the appropriate drivers for the device (Windows/Linux).
 
@@ -170,7 +170,7 @@ A Bootloader is a program that either launches... another bootloader ;) or an OS
 
 [FMCB](https://sites.google.com/view/ysai187/home/projects/fmcbfhdb) is one of the OSDSYS Patchers, and therefore adds a configurable menu to the PS2 Browser, from which you can launch programs stored on a Memory Card or USB stick. <span style="color:#BD0000">Versions 1.9xx do not work correctly with many modchips (in such cases, use 1.8b or 1.8c version)</span>.
 
-Keep in mind that FMCB does not support exFAT, but this functionality can be added by BDMA. More information about this can be found in the guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md).
+Keep in mind that FMCB does not support exFAT, but this functionality can be added by BDMA. More information about this can be found in the guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html).
 
 #### OSDMenu
 
@@ -178,7 +178,7 @@ Keep in mind that FMCB does not support exFAT, but this functionality can be add
 
 ## D. Internal Storage (HDD/SSD over PATA/SATA)
 
-All "exploits" installed on the disk use the same firmware update mechanism -- the same one used to launch official software, such as the so-called HDD OSD and Linux, including PSBBN. Keep in mind that this feature is exclusive to APA or APA-Jail environments because PS2 firmware supports only APA. More information about this can be found in the guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md).
+All "exploits" installed on the disk use the same firmware update mechanism -- the same one used to launch official software, such as the so-called HDD OSD and Linux, including PSBBN. Keep in mind that this feature is exclusive to APA or APA-Jail environments because PS2 firmware supports only APA. More information about this can be found in the guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html).
 
 ### System Update
 
@@ -217,7 +217,7 @@ What sets it apart from the others is that instead of a loader (which initialize
 
 [FHDB](https://sites.google.com/view/ysai187/home/projects/fmcbfhdb) is one of the OSDSYS Patchers, and therefore adds a configurable menu to the PS2 Browser, from which you can launch programs stored on an internal disk, Memory Card or USB stick. <span style="color:#BD0000">It does not work correctly with many modchips</span>.
 
-Keep in mind that FHDB does not support exFAT, but this functionality can be added by BDMA. More information about this can be found in the guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md).
+Keep in mind that FHDB does not support exFAT, but this functionality can be added by BDMA. More information about this can be found in the guide: [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html).
 
 #### HOSDMenu
 
@@ -225,7 +225,7 @@ Keep in mind that FHDB does not support exFAT, but this functionality can be add
 
 #### PSBBN Definitive Patch
 
-PlayStation Broadband Navigator (PSBBN) is an official Linux distribution that was never released outside Japan and, for a long time, remained unknown to a wider audience due to both the language barrier and its draconian requirements (an NTSC-J model with an original HDD). The [PSBBN Definitive Patch](https://github.com/CosmicScale/PSBBN-Definitive-English-Patch) project is not only the first proper English translation, but also a fully pre-configured environment. It includes many discontinued PSBB channels, HDD OSD, homebrew programs, etc., all running on APA-Jail (as for what APAJ is, see the [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.md) guide). Furthermore, PSBBN DEP does not require an NTSC-J console or an original HDD, yet it requires an original Network Adaptor (the PATA board can be replaced with a non-official SATA board).
+PlayStation Broadband Navigator (PSBBN) is an official Linux distribution that was never released outside Japan and, for a long time, remained unknown to a wider audience due to both the language barrier and its draconian requirements (an NTSC-J model with an original HDD). The [PSBBN Definitive Patch](https://github.com/CosmicScale/PSBBN-Definitive-English-Patch) project is not only the first proper English translation, but also a fully pre-configured environment. It includes many discontinued PSBB channels, HDD OSD, homebrew programs, etc., all running on APA-Jail (as for what APAJ is, see the [Internal Storage vs. External Storage](Internal%20Storage%20vs%20External%20Storage.html) guide). Furthermore, PSBBN DEP does not require an NTSC-J console or an original HDD, yet it requires an original Network Adaptor (the PATA board can be replaced with a non-official SATA board).
 
 The project was formerly known as PSBBN Definitive English Patch.
 
@@ -328,7 +328,7 @@ Below I present what I consider to be the best PS2 jailbreak methods currently a
 
 The king of attack vectors is, and will remain forever (due to its ease of use), the **memory card emulator** (i.e. any **MMCE** device). It works on literally every PS2 model (SCPH/DESR/KDL/DTL-H/COH) and every firmware version, as they all allow the use of a VMC (Virtual Memory Card) stored on a microSD card, which is presented to the PS2 as a physical Memory Card or dongle, including Magic Gate authentication support. In other words, you can install any exploit onto a PS2 Memory Card image and use it as the default VMC. From the PS2's point of view, an MMCE is just a regular Memory Card.
 
-More information can be found in the guide [Everything You Need to Know About SD2PSX](Everything%20You%20Need%20to%20Know%20About%20SD2PSX.md).
+More information can be found in the guide [Everything You Need to Know About SD2PSX](Everything%20You%20Need%20to%20Know%20About%20SD2PSX.html).
 
 **[MX4SIO](https://www.trisaster.de/page/index.php?topic=575)**, its clones (such as **MC2SIO**), as well as an SDXC card soldered to the console's motherboard or Memory Card PCB, <span style="color:#BD0000">are not emulators</span>! Although they use the same port as MMCE devices and physical Memory Cards, they are closer to a USB stick, except that they are connected to SIO2 rather than USB.
 
@@ -336,7 +336,7 @@ More information can be found in the guide [Everything You Need to Know About SD
 
 Many people think that these models cannot automatically launch a System Update (e.g. FMCB) when the console starts. <span style="color:#BD0000">This is only true for the 90K series with firmware **2.30**.</span> <span style="color:#009400">Early 90K units that left the factory were shipped with version **2.20** installed, which still has the System Update feature enabled.</span>
 
-More information can be found in the guide: [How to Check Firmware Version](How%20to%20Check%20Firmware%20Version.md).
+More information can be found in the guide: [How to Check Firmware Version](How%20to%20Check%20Firmware%20Version.html).
 
 ### Disk Images
 
@@ -346,4 +346,4 @@ The exception to this rule is **MBR Boot**, but only because it is used to launc
 
 <br />Berion<br />2026-09-18
 
-<p align="right"><small>➜ Go back to <a href="index.md">main page</a></small></p>
+<p align="right"><small>➜ Go back to <a href="index.html">main page</a></small></p>
